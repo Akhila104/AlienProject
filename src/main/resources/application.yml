@@ -4,7 +4,7 @@ spring:
       enabled: true
   jpa:
     defer-datasource-initialization: true
-spring.datasource.url: jdbc:h2:mem:akh
+spring.datasource.url: jdbc:h2:file:~/akh
 spring.sql.init.platform: h2
 server:
   port: 8081
